@@ -79,7 +79,7 @@ input[type="radio"] {
     display: flex;
     justify-content: flex-end;
     margin-top: 2rem;
-    margin-right: 1rem;
+    margin-right: 5rem;
 }
 
 .navigation label {
@@ -135,7 +135,7 @@ input[type="radio"] {
 
 .description {
     margin-top: 2rem;
-    margin-left: 1rem;
+    margin-left: 5rem;
 
 
     & .desc-slider {
@@ -172,6 +172,11 @@ input[type="radio"] {
 
         & .navigation {
             align-self: center;
+            margin-right: 0;
+        }
+
+        & .description {
+            margin-left: 1rem;
         }
     }
 
